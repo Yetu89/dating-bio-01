@@ -24,6 +24,13 @@
 // The em dash (U+2014) before the punchline is part of the text: it sets
 // the final clause apart so the joke lands as a beat, not a run-on.
 //
+// Note on the text itself: the line is fixed — it is the exact Grok-winning
+// candidate, character for character. Do not "improve" it, do not reword
+// it, and do not change the punctuation: any edit risks breaking the
+// punchline timing the judge rewarded. The gate below exists only to
+// prove the fixed text is valid (1–180 chars, one line, clean UTF-8),
+// never to rewrite it.
+//
 // Gate rules (enforced by validate() below, mirroring the sealed scorer)
 // ----------------------------------------------------------------------
 // - /output/entry.txt must be UTF-8 text of 1 to 180 characters.
